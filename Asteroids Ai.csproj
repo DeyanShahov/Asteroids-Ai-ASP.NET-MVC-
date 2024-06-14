@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Asteroids_Ai-87bd5c0a-288b-4880-8f89-31ad9f042bae</UserSecretsId>
+    <RootNamespace>Asteroids_Ai</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\asteroids\AsteroidsGames.js" />
+    <None Include="wwwroot\js\asteroids\BattleScene.js" />
+    <None Include="wwwroot\js\asteroids\constants.js" />
+    <None Include="wwwroot\js\asteroids\engine\controls.js" />
+    <None Include="wwwroot\js\asteroids\engine\InputGamepadHandler.js" />
+    <None Include="wwwroot\js\asteroids\engine\InputKeyboardHandler.js" />
+    <None Include="wwwroot\js\asteroids\engine\MusicHandler.js" />
+    <None Include="wwwroot\js\asteroids\engine\SoundHandler.js" />
+    <None Include="wwwroot\js\asteroids\entities\Asteroid.js" />
+    <None Include="wwwroot\js\asteroids\entities\Ship.js" />
+    <None Include="wwwroot\js\asteroids\playerState.js" />
+    <None Include="wwwroot\sounds\explode.m4a" />
+    <None Include="wwwroot\sounds\hit.m4a" />
+    <None Include="wwwroot\sounds\laser.m4a" />
+    <None Include="wwwroot\sounds\music-high.m4a" />
+    <None Include="wwwroot\sounds\music-low.m4a" />
+    <None Include="wwwroot\sounds\thrust.m4a" />
+    <None Include="wwwroot\js\asteroids\utils\asteroid.js" />
+    <None Include="wwwroot\js\asteroids\utils\game.js" />
+  </ItemGroup>
+
+</Project>
